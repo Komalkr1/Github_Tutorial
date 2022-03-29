@@ -1,0 +1,28 @@
+#top_headings{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+#Heading1,#Heading2{   
+    text-align: right;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    padding-right: 60px;
+    color:white;
+}
+#Heading1{  
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+#Heading2{  
+    font-size: 45px;  
+}
+
+#top_headings{
+    background-image: url('360_F_301714556_aXSmQy6VgFPKnrM3WYD5lUxZrnbYN10o.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
