@@ -1,3 +1,6 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
 #top_headings{
     padding-top: 80px;
     padding-bottom: 80px;
@@ -5,7 +8,6 @@
 }
 #Heading1,#Heading2{   
     text-align: right;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
     padding-right: 60px;
     color:white;
 }
@@ -21,8 +23,14 @@
 }
 
 #top_headings{
-    background-image: url('360_F_301714556_aXSmQy6VgFPKnrM3WYD5lUxZrnbYN10o.jpg');
+    background-image: url('HeaderImg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#para1{
+    background-color:whitesmoke;
+    font-size: 28px;
+    padding: 25px 30px;
 }
