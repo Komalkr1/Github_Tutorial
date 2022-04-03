@@ -34,3 +34,44 @@ body{
     font-size: 28px;
     padding: 25px 30px;
 }
+
+#info_Points{    
+    display: table;
+    margin: 0 auto;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#d1{
+    float:left;
+    width:50%;
+}
+
+#d2{
+    float:right;
+    width:50%;
+}
+
+#d3{
+    margin-top: 20px;
+    float:right;
+    width:50%;
+}
+
+#d4{
+    margin-top: 20px;
+    float:left;
+    width:50%;
+}
+
+#d5{
+    margin-top: 20px;
+    float:right;
+    width:50%;
+}
+
+#d6{
+    margin-top: 20px;
+    float:left;
+    width:50%;
+}

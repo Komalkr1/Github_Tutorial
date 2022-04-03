@@ -8,14 +8,119 @@
             <div id="Heading1">GitHub</div>
             <div id="Heading2">A GUIDE TO GIT!!</div>
         </div>
-        <div id="para1">Git is the free and open source distributed version control system that's responsible for everything GitHub
+
+        <div id="para1">
+            Git is the free and open source distributed version control system that's responsible for everything GitHub
             related that happens locally on your computer. This guide features the most important and commonly
             used Git commands for easy reference.
         </div>
-        <div>
-            
+
+        <div id="info_Points">
+            This guide covers following sections about GitHub:
+            <ul>
+                <li>INSTALLATION & GUIS</li>
+                <li>SETUP</li>
+                <li>SETUP & INIT</li>
+                <li>STAGE & SNAPSHOT</li>
+                <li>BRANCH & MERGE</li>  
+                <li>SHARE & UPDATE</li>  
+            </ul>
         </div>
-        
-        
+
+        <div id="main_div">
+
+            <div id="d1">
+                <h3>INSTALLATION & GUIS</h3>
+                With platform specific installers for Git, GitHub also provides the
+                ease of staying up-to-date with the latest releases of the command
+                line tool while providing a graphical user interface for day-to-day
+                interaction, review, and repository synchronization.
+                <h3>GitHub for Windows</h3>
+                htps://windows.github.com
+                <h3>GitHub for Mac</h3>
+                htps://mac.github.com
+                For Linux and Solaris platforms, the latest release is available on 
+                the official Git web site.
+                <h3>Git for All Platforms</h3>
+                htp://git-scm.com
+            </div>
+
+            <div id="d2">
+                <h3>STAGE & SNAPSHOT</h3>
+                Working with snapshots and the Git staging area
+                <table>
+                    <tr><td>git status</td></tr>
+                    <tr><td>show modified files in working directory, staged for your next commit</td></tr>
+                    <tr><td>git add [file]</td></tr>
+                    <tr><td>add a file as it looks now to your next commit (stage)</td></tr>
+                    <tr><td>git reset [file]</td></tr>
+                    <tr><td>unstage a file while retaining the changes in working directory</td></tr>
+                    <tr><td>git diff</td></tr>
+                    <tr><td>diff of what is changed but not staged</td></tr>
+                    <tr><td>git diff --staged</td></tr>
+                    <tr><td>diff of what is staged but not yet commited</td></tr>
+                    <tr><td>git commit -m "[descriptive message]"</td></tr>
+                    <tr><td>commit your staged content as a new commit snapshot</td></tr>
+                </table>
+            </div> 
+
+            <div id="d3">
+                <h3>SETUP</h3>
+                Configuring user information used across all local repositories
+                <table>
+                    <tr><td>git config --global user.name "[firstname lastname]"</td></tr>
+                    <tr><td>set a name that is identifiable for credit when review version history</td></tr>
+                    <tr><td>git config --global user.email "[valid-email]"</td></tr>
+                    <tr><td>set an email address that will be associated with each history marker</td></tr>
+                    <tr><td>git config --global color.ui auto</td></tr>
+                    <tr><td>set automatic command line coloring for Git for easy reviewing</td></tr>
+                </table>       
+            </div>  
+
+            <div id="d4">
+                <h3>BRANCH & MERGE</h3>
+                Isolating work in branches, changing context, and integrating changes
+                <table>
+                    <tr><td>git branch</td></tr>
+                    <tr><td>list your branches. a * will appear next to the currently active branch</td></tr>
+                    <tr><td>git branch [branch-name]</td></tr>
+                    <tr><td>create a new branch at the current commit</td></tr>
+                    <tr><td>git checkout</td></tr>
+                    <tr><td>switch to another branch and check it out into your working directory</td></tr>
+                    <tr><td>git merge [branch]</td></tr>
+                    <tr><td>merge the specified branch's history into the current one</td></tr>
+                    <tr><td>git log</td></tr>
+                    <tr><td>show all commits in the current branch's history</td></tr>
+                </table>
+            </div> 
+
+            <div id="d5">
+                <h3>SETUP & INIT</h3>
+                Configuring user information, initializing and cloning repositories
+                <table>
+                    <tr><td>git init</td></tr>
+                    <tr><td>initialize an existing directory as a Git repository</td></tr>
+                    <tr><td>git clone [url]</td></tr>
+                    <tr><td>retrieve an entire repository from a hosted location via URL</td></tr>
+                </table>
+            </div> 
+
+            <div id="d6">
+                <h3>SHARE & UPDATE</h3>
+                Retrieving updates from another repository and updating local repos
+                <table>
+                    <tr><td>git remote add [alias] [url]</td></tr>
+                    <tr><td>add a git URL as an alias</td></tr>
+                    <tr><td>git fetch [alias]</td></tr>
+                    <tr><td>fetch down all the branches from that Git remote</td></tr>
+                    <tr><td>git merge [alias]/[branch]</td></tr>
+                    <tr><td>merge a remote branch into your current branch to bring it up to date</td></tr>
+                    <tr><td>git push [alias] [branch]</td></tr>
+                    <tr><td>Transmit local branch commits to the remote repository branch</td></tr>
+                    <tr><td>git pull</td></tr>
+                    <tr><td>fetch and merge any commits from the tracking remote branch</td></tr>
+                </table>
+            </div> 
+        </div>
     </body>    
-</html>
+    </html>
