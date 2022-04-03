@@ -31,47 +31,33 @@ body{
 
 #para1{
     background-color:whitesmoke;
-    font-size: 28px;
+    font-size: 25px;
     padding: 25px 30px;
 }
 
 #info_Points{    
     display: table;
     margin: 0 auto;
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 20px;
 }
 
-#d1{
+tr:nth-child(odd) {
+    font-weight: bold;
+    background-color: aliceblue;
+  }
+
+#main_div div:nth-child(odd){
+    font-size: 18px;
     float:left;
     width:50%;
+    
 }
 
-#d2{
-    float:right;
-    width:50%;
-}
-
-#d3{
-    margin-top: 20px;
-    float:right;
-    width:50%;
-}
-
-#d4{
-    margin-top: 20px;
-    float:left;
-    width:50%;
-}
-
-#d5{
+#main_div div:nth-child(even){
+    font-size: 18px;
     margin-top: 20px;
     float:right;
     width:50%;
-}
-
-#d6{
-    margin-top: 20px;
-    float:left;
-    width:50%;
+    
 }
